@@ -39,7 +39,7 @@ class HomePage extends StatelessWidget {
   Widget menuColor() => new Container(
         decoration: BoxDecoration(boxShadow: <BoxShadow>[
           BoxShadow(
-            color: Colors.black.withOpacity(0.8),
+            color: Colors.black.withOpacity(.1),
             blurRadius: 5.0,
           ),
         ]),
@@ -145,8 +145,8 @@ class HomePage extends StatelessWidget {
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ProfileTile(
-                  title: "Pawan Kumar",
-                  subtitle: "mtechviral@gmail.com",
+                  title: "Chad Hartman",
+                  subtitle: "chadhartman@gmail.com",
                   textColor: Colors.white,
                 ),
               )

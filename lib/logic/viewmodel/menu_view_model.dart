@@ -10,16 +10,16 @@ class MenuViewModel {
   getMenuItems() {
     return menuItems = <Menu>[
       Menu(
-          title: "Profile",
-          menuColor: Color(0xff050505),
-          icon: Icons.person,
-          image: UIData.profileImage,
-          items: ["View Profile", "Profile 2", "Profile 3", "Profile 4"]),
+          title: "",
+          menuColor: null,
+          icon: null,
+          image: UIData.bigcountryImage,
+          items: ["3155 RLK", "3560 SS", "3902 FL"]),
       Menu(
-          title: "Shopping",
+          title: "",
           menuColor: Color(0xffc8c4bd),
-          icon: Icons.shopping_cart,
-          image: UIData.shoppingImage,
+          icon: null,
+          image: UIData.bighornImage,
           items: [
             "Shopping List",
             "Shopping Details",
@@ -27,40 +27,40 @@ class MenuViewModel {
             "Shopping 4"
           ]),
       Menu(
-          title: "Login",
+          title: "",
           menuColor: Color(0xffc7d8f4),
-          icon: Icons.send,
-          image: UIData.loginImage,
+          icon: null,
+          image: UIData.bighorntravelerImage,
           items: ["Login With OTP", "Login 2", "Sign Up", "Login 4"]),
       Menu(
-          title: "Timeline",
+          title: "",
           menuColor: Color(0xff7f5741),
-          icon: Icons.timeline,
-          image: UIData.timelineImage,
+          icon: null,
+          image: UIData.cycloneImage,
           items: ["Feed", "Tweets", "Timeline 3", "Timeline 4"]),
       Menu(
-          title: "Dashboard",
+          title: "",
           menuColor: Color(0xff261d33),
-          icon: Icons.dashboard,
-          image: UIData.dashboardImage,
+          icon: null,
+          image: UIData.elkridgeImage,
           items: ["Dashboard 1", "Dashboard 2", "Dashboard 3", "Dashboard 4"]),
       Menu(
-          title: "Settings",
+          title: "",
           menuColor: Color(0xff2a8ccf),
-          icon: Icons.settings,
-          image: UIData.settingsImage,
+          icon: null,
+          image: UIData.elkridgefocusImage,
           items: ["Device Settings", "Settings 2", "Settings 3", "Settings 4"]),
       Menu(
-          title: "No Item",
+          title: "",
           menuColor: Color(0xffe19b6b),
-          icon: Icons.not_interested,
-          image: UIData.blankImage,
+          icon: null,
+          image: UIData.fuelImage,
           items: ["No Search Result", "No Internet", "No Item 3", "No Item 4"]),
       Menu(
-          title: "Payment",
+          title: "",
           menuColor: Color(0xffddcec2),
-          icon: Icons.payment,
-          image: UIData.paymentImage,
+          icon: null,
+          image: UIData.gatewayImage,
           items: ["Credit Card", "Payment Success", "Payment 3", "Payment 4"]),
     ];
   }

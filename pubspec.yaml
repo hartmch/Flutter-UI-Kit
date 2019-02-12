@@ -21,7 +21,7 @@ dependencies:
   flutter_masked_text:
   flutter_localizations:
     sdk: flutter
-
+  http:
 
 dev_dependencies:
   random_pk:

@@ -23,7 +23,7 @@ class UIData {
   static const String dashboardTwoRoute = "/Dashboard 2";
 
   //strings
-  static const String appName = "Flutter UIKit";
+  static const String appName = "Heartland RV";
 
   //fonts
   static const String quickFont = "Quicksand";
@@ -45,6 +45,14 @@ class UIData {
   static const String timelineImage = "$imageDir/timeline.jpeg";
   static const String verifyImage = "$imageDir/verification.jpg";
 
+  static const String cycloneImage = "$imageDir/cyclone_tn1.jpg";
+  static const String bigcountryImage = "$imageDir/bigcountry_tn1.jpg";
+  static const String bighornImage = "$imageDir/bighorn_tn1.jpg";
+  static const String bighorntravelerImage = "$imageDir/bighorntraveler_tn1.jpg";
+  static const String elkridgeImage = "$imageDir/elkridge_tn1.jpg";
+  static const String elkridgefocusImage = "$imageDir/elkridgefocus_tn1.jpg";
+  static const String fuelImage = "$imageDir/fuel_tn1.jpg";
+  static const String gatewayImage = "$imageDir/gateway_tn1.jpg";
   //login
   static const String enter_code_label = "Phone Number";
   static const String enter_code_hint = "10 Digit Phone Number";

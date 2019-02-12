@@ -16,15 +16,15 @@ class MyAboutTile extends StatelessWidget {
           height: 10.0,
         ),
         Text(
-          "Developed By Pawan Kumar",
+          "Developed By Chad Hartman",
         ),
         Text(
-          "MTechViral",
+          "",
         ),
       ],
       applicationName: UIData.appName,
       applicationVersion: "1.0.1",
-      applicationLegalese: "Apache License 2.0",
+      applicationLegalese: "",
     );
   }
 }
