@@ -13,7 +13,8 @@ if (flutterRoot == null) {
 
 def flutterVersionCode = localProperties.getProperty('flutter.versionCode')
 if (flutterVersionCode == null) {
-    throw new GradleException("versionCode not found. Define flutter.versionCode in the local.properties file.")
+    flutterVersionCode = 2; //attempt to fix
+    //throw new GradleException("versionCode not found. Define flutter.versionCode in the local.properties file.")
 }
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
