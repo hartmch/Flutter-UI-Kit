@@ -19,9 +19,10 @@ if (flutterVersionCode == null) {
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = 1;
+    
     //throw new GradleException("versionName not found. Define flutter.versionName in the local.properties file.")
 }
+flutterVersionName = 1;
 
 apply plugin: 'com.android.application'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
