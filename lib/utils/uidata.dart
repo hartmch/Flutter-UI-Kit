@@ -22,6 +22,8 @@ class UIData {
   static const String dashboardOneRoute = "/Dashboard 1";
   static const String dashboardTwoRoute = "/Dashboard 2";
 
+  static const String rlk3155Route = "/3155 RLK";
+
   //strings
   static const String appName = "Heartland RV";
 

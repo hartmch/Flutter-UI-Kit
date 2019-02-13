@@ -9,11 +9,11 @@ class ProductViewModel {
 
   getProducts() => <Product>[
         Product(
-            brand: "Big Country",
-            description: "Overall length defined as tow point (Ball coupler for travel trailers",
+            brand: "RV",
+            description: "Print T-shirt",
             image:
-                "https://heartlandrvs.com/control/addons/rvadmin/images/floorplans/Heartland_BigCountry_3155-RLK_107557_1_1.png",
-            name: "3155 RLK",
+                "https://mosaic02.ztat.net/vgs/media/pdp-zoom/LE/22/1D/02/2A/12/LE221D022-A12@16.1.jpg",
+            name: "THE PERFECT",
             price: "£19.99",
             rating: 4.0,
             colors: [

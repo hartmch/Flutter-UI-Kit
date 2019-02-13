@@ -14,7 +14,7 @@ class MenuViewModel {
           menuColor: null,
           icon: null,
           image: UIData.bigcountryImage,
-          items: ["3155 RLK", "3560 SS", "3902 FL"]),
+          items: ["3155 RLK", "3560 SS", "3902 FL", "Login 2"]),
       Menu(
           title: "",
           menuColor: Color(0xffc8c4bd),

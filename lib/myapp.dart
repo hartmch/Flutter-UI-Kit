@@ -14,6 +14,7 @@ import 'package:flutter_uikit/ui/page/settings/settings_one_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/product_detail_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_details_page.dart';
 import 'package:flutter_uikit/ui/page/shopping/shopping_one_page.dart';
+import 'package:flutter_uikit/ui/page/shopping/rv_detail_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_one_page.dart';
 import 'package:flutter_uikit/ui/page/timeline/timeline_two_page.dart';
 import 'package:flutter_uikit/utils/translations.dart';
@@ -61,6 +62,7 @@ class MyApp extends StatelessWidget {
         UIData.paymentTwoRoute: (BuildContext context) => PaymentSuccessPage(),
         UIData.dashboardOneRoute: (BuildContext context) => DashboardOnePage(),
         UIData.dashboardTwoRoute: (BuildContext context) => DashboardTwoPage(),
+        UIData.rlk3155Route: (BuildContext context) => ShoppingOnePage(),
       },
       onUnknownRoute: (RouteSettings rs) => new MaterialPageRoute(
           builder: (context) => new NotFoundPage(
