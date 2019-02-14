@@ -62,7 +62,7 @@ class MyApp extends StatelessWidget {
         UIData.paymentTwoRoute: (BuildContext context) => PaymentSuccessPage(),
         UIData.dashboardOneRoute: (BuildContext context) => DashboardOnePage(),
         UIData.dashboardTwoRoute: (BuildContext context) => DashboardTwoPage(),
-        UIData.rlk3155Route: (BuildContext context) => ShoppingOnePage(),
+        UIData.rlk3155Route: (BuildContext context) => ShoppingDetailsPage(),
       },
       onUnknownRoute: (RouteSettings rs) => new MaterialPageRoute(
           builder: (context) => new NotFoundPage(
