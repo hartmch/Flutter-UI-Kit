@@ -85,6 +85,9 @@ class ShoppingWidgets extends StatelessWidget {
 
   Widget actionCard() => Padding(
         padding: const EdgeInsets.symmetric(horizontal: 18.0),
+        child: Card(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
         child: Table(
                 border: TableBorder.all(width: 1.0, color: Colors.black),
                 children: [
@@ -475,6 +478,8 @@ class ShoppingWidgets extends StatelessWidget {
                   ])
                 ],
         )
+        ),
+        ),
       );
   @override
   Widget build(BuildContext context) {

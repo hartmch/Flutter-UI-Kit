@@ -57,7 +57,7 @@ class HomePage extends StatelessWidget {
             height: 10.0,
           ),
           Text(
-            menu.title,
+            "",
             style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           )
         ],
@@ -78,10 +78,8 @@ class HomePage extends StatelessWidget {
           ),
           title: Row(
             children: <Widget>[
-              FlutterLogo(
-                colors: Colors.yellow,
-                textColor: Colors.white,
-              ),
+              Image.asset(
+                'assets/images/heartland-icon.png', height: 40, width: 40),
               SizedBox(
                 width: 10.0,
               ),
@@ -130,7 +128,7 @@ class HomePage extends StatelessWidget {
         });
   }
 
-  Widget header() => Ink(
+  Widget header(Menu menu) => Ink(
         decoration: BoxDecoration(
             gradient: LinearGradient(colors: UIData.kitGradients2)),
         child: Padding(
@@ -138,15 +136,11 @@ class HomePage extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: <Widget>[
-              CircleAvatar(
-                radius: 25.0,
-                backgroundImage: AssetImage(UIData.pkImage),
-              ),
               Padding(
                 padding: const EdgeInsets.all(8.0),
                 child: ProfileTile(
-                  title: "Chad Hartman",
-                  subtitle: "chadhartman@gmail.com",
+                  title: menu.title,
+                  subtitle: "by Heartland",
                   textColor: Colors.white,
                 ),
               )
@@ -169,7 +163,7 @@ class HomePage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               mainAxisSize: MainAxisSize.max,
               children: <Widget>[
-                header(),
+                header(menu),
                 Expanded(
                   child: ListView.builder(
                     shrinkWrap: false,
@@ -188,7 +182,7 @@ class HomePage extends StatelessWidget {
                         ),
                   ),
                 ),
-                MyAboutTile()
+                //MyAboutTile()
               ],
             )));
   }

@@ -6,7 +6,7 @@ class MyAboutTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return AboutListTile(
       applicationIcon: FlutterLogo(
-        colors: Colors.yellow,
+        colors: Colors.green,
       ),
       icon: FlutterLogo(
         colors: Colors.yellow,
@@ -16,7 +16,7 @@ class MyAboutTile extends StatelessWidget {
           height: 10.0,
         ),
         Text(
-          "Developed By Chad Hartman",
+          "At Heartland RV, we dedicate ourselves to creating the highest quality luxury travel trailers, fifth wheels, and toy haulers for all your outdoor needs.",
         ),
         Text(
           "",
